@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                                                                                    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>💉Vacunación</title>
+</head>
+<body>
+    <section class="s1">
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="img1">
+            <img src="https://images.pexels.com/photos/4167541/pexels-photo-4167541.jpeg" alt="Doctora">
+        </div>
+        <p class="titleS1">
+            Combate el virus,<br>
+            con vacunas.
+        </p>
+        <p class="textS1">
+            Detengamos esta pandemia eliminando el virus <br>
+            con una vacuna, no te dejes infectar a ti <br>
+            y a tu familia.
+        </p>
+        <div class="iconinfo">
+            <div class="icongroup">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shield-check" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 12l2 2l4 -4" />
+                    <path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3" />
+                </svg>
+                <p>Mejor protección.</p>
+            </div>
+            <div class="icongroup">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-star" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                </svg>
+                <p>Vacunas seleccionadas.</p>
+            </div>
+        </div>
+        <div class="iconinfo2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="32" height="32" viewBox="0 0 24 24" stroke-width="3" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="12" r="9" />
+                <polyline points="12 7 12 12 15 15" />
+            </svg>
+            <p>Agenda tu vacunación:</p>
+        </div>
+        <div class="actionbarS1">
+            <form action="formulario.js"></form>
+            <div class="actionbarTitles">
+                <div class="actionbarTitle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="11" r="3" />
+                        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>
+                    <p>Lugar</p>
+                </div>
+                <div class="actionbarTitle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-event" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="5" width="16" height="16" rx="2" />
+                        <line x1="16" y1="3" x2="16" y2="7" />
+                        <line x1="8" y1="3" x2="8" y2="7" />
+                        <line x1="4" y1="11" x2="20" y2="11" />
+                        <rect x="8" y="15" width="2" height="2" />
+                    </svg>
+                    <p>Fecha</p>
+                </div>
+                <div class="actionbarTitle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="20" height="20" viewBox="0 0 24 24" stroke-width="3" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 20h4l10.5 -10.5a1.5 1.5 0 0 0 -4 -4l-10.5 10.5v4" />
+                        <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+                      </svg>
+                      <p>Tipo de vacuna</p>
+                </div>
+            </div>
+            <div class="actionbarContent">
+                <select Name="Estado" id="Estado">  
+                    <option value="1"> Aguascalientes </option>  
+                    <option value="2"> Baja California </option>  
+                    <option value="3"> Baja California Sur </option>  
+                    <option value="4"> Campeche </option>
+                    <option value="5"> Chiapas</option>  
+                  </select> 
+                <input type="date" id="date" name="date">
+                <select Name="Vacuna" id="Vacuna">  
+                    <option value="1"> Pfizer </option>  
+                    <option value="2"> AstraZeneca </option>  
+                    <option value="3"> Cansino </option>  
+                    <option value="4"> J&J </option>
+                    <option value="5"> Sputnik</option>  
+                  </select>
+            </div>
+            <h4 class="buttonSubmit">Enviar</h4>
+        </div>
+            
+    </section>
+    <div class="header">
+        <h3 class="title">Vacunación</h3>
+        <div class="actions">
+            <h4 class="action-button">Base de datos</h4>
+            <h4 class="action-button">Educación</h4>
+            <h4 class="action-button">Noticias</h4>
+            <h4 class="action-button">Regulación</h4>
+            <h4 class="button">Desengñate</h4>
+        </div>
+    </div>
+</body>
+</html>
