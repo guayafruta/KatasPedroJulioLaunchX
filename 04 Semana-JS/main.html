@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex! - 🚀LaunchX </title>
+    <link rel="stylesheet" href="./syles.css">
+
+</head>
+<body>
+
+    <section class="mainScreen">
+        <div class="mainScreenTopBar">
+            <div class="TopBarButton1"></div>
+            <div class="TopBarButton2"></div>
+            <div class="TopBarButton3"></div>
+            <div class="TopBarButton4"></div>
+        </div>
+        <div class="PokemonScreen">
+            <div class="PokemonScreenIMG">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpurepng.com%2Fpublic%2Fuploads%2Flarge%2Fpurepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-1701527825789urzm0.png&f=1&nofb=1" alt="pokemon" id="image" >
+            </div>
+        </div>
+        <div class="searchBar">
+            <form action="java.js"></form>
+            <input type="text" id="name" name="name" placeholder="Pokemon" class="textsearch">
+            <input type="button" onclick="print()" id="search" name="search" value="Search" class="button">
+        </div>
+    </section>
+    <section class="rightScreen">
+        <div class="infoScreen">
+            <div class="greenscreen">
+                <div>
+                    <label for="Gname" class="infotext">Name:</label>
+                    <label id="Gname" class="infotext">No info</label>
+                </div>
+                <div class="sepBar"></div>
+                <div>
+                    <label for="No" class="infotext">No:</label>
+                    <label id="No" class="infotext">000</label>
+                </div>
+                <div class="sepBar"></div>
+                <div>
+                    <label for="Type" class="infotext">Type:</label>
+                    <label id="Type" class="infotext">No info</label>
+                </div>
+                <div class="sepBar"></div>
+                <div>
+                    <label for="Weight" class="infotext">Weigth:</label>
+                    <label id="Weight" class="infotext">No info</label>
+                </div>
+                <div class="sepBar"></div>
+                <div>
+                    <label for="Height" class="infotext">Height:</label>
+                    <label id="Height" class="infotext">No info</label>
+                </div>
+            </div>
+        </div>
+        <div class="abilityScreen">
+            <div class="abilityGScreen">
+                
+            </div>
+        </div>
+    </section>
+    <section class="hinge">
+        <div class="hingeSquare"></div>
+        <div class="hingeSquare"></div>
+    </section>
+
+</body>
+<footer>
+    <script src="./java.js"></script>
+</footer>
+</html>
