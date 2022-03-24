@@ -196,8 +196,8 @@ body{
 }
 .infotext{
 
-    color: #adadad;
-    border-radius: 5px;
+    color: #4d4d4d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img{
     object-fit:contain;
@@ -210,7 +210,7 @@ img{
     left: 75px;
     top: 75px;
     height: 225px;
-    width: 250px;
+    width: 150px;
     margin: 0px;
     background-color: #747474;
     border-radius: 25px;
@@ -226,7 +226,7 @@ img{
     left: 0px;
     top: 0px;
     height: 200px;
-    width: 225px;
+    width: 125px;
     margin: 0px;
     background-color: #63ff44;
     border-radius: 25px;
@@ -235,4 +235,78 @@ img{
     gap: 10px;
     align-items:center;
     justify-content: center;
+}
+
+.statScreen{
+    position: relative;
+    left: 250px;
+    top: -150px;
+    height: 225px;
+    width: 150px;
+    margin: 0px;
+    background-color: #747474;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    justify-content: center;
+}
+
+.statGScreen{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 200px;
+    width: 125px;
+    margin: 0px;
+    background-color: #63ff44;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    justify-content: center;
+}
+
+.dpadV{
+    position: absolute;
+    left: 460px;
+    top: 330px;
+    height: 100px;
+    width: 30px;
+    margin: 0px;
+    background-color: #222222;
+}
+.dpadH{
+    position: absolute;
+    left: 425px;
+    top: 365px;
+    height: 30px;
+    width: 100px;
+    margin: 0px;
+    background-color: #222222;
+}
+
+.Abutton{
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    border-radius: 50px;
+    border:3px solid rgb(196, 196, 196);
+    background-color: #589625;
+}
+.Bbutton{
+    position: absolute;
+    top: 500px;
+    left: 480px;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    border-radius: 50px;
+    border:3px solid rgb(196, 196, 196);
+    background-color: #962541;
 }
